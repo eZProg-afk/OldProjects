@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Guide</string>
+    <string name="already_reg_label">Уже есть аккаунт? \n Нажмите сюда!</string>
+    <string name="email_hint">Введите свой E-mail…</string>
+    <string name="password_hint">Придумайте пароль…</string>
+    <string name="repeat_password_hint">Повторите пароль…</string>
+    <string name="nickname_hint">Ваш никнейм…</string>
+    <string name="hello_label">Привет!) \n Давай начнём с регистрации?</string>
+    <string name="reg_label">Регистрация</string>
+    <string name="enter_password_hint">Введите пароль…</string>
+    <string name="title_activity_maps_main">Map</string>
+    <string name="api_key">AIzaSyChN0l29xh89ouq_GToAj_5hw7LmTF-Gzc</string>
+    <string name="delete_note_label">Информация о месте</string>
+    <string name="cancel_label">Закрыть</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "838858432999",
+    "project_id": "guide-b32b6",
+    "storage_bucket": "guide-b32b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838858432999:android:58b5483347b9a485b5dd42",
+        "android_client_info": {
+          "package_name": "spiral.bit.dev.guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838858432999-2khh11agekbi8l9g0gp4um6n4p5r0v9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "spiral.bit.dev.guide",
+            "certificate_hash": "d8c5d93b41d3d310cb23d132bfe96d3dd9bf14f2"
+          }
+        },
+        {
+          "client_id": "838858432999-kuqjb4esoca7g8m5kkssanr92o18r0iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfh_4zXp54Mxdv-gfvA0YOaVFsH3Eobvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838858432999-kuqjb4esoca7g8m5kkssanr92o18r0iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
