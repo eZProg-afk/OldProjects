@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".ui.images.photoPicker.PhotoPickerActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/goBackTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Go back"
+        android:padding="16dp"
+        app:drawableTint="@color/white"
+        app:drawableEndCompat="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/labelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/chooseMediaCountNumberPicker"
+        app:layout_constraintStart_toStartOf="@id/selectionModeCheckBox"
+        app:layout_constraintEnd_toEndOf="@id/selectionModeCheckBox"
+        android:layout_marginTop="32dp"
+        android:text="What do you want to pick?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/selectionModeCheckBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/goBackTextView"
+        app:layout_constraintStart_toStartOf="@id/goBackTextView"
+        app:layout_constraintEnd_toEndOf="@id/goBackTextView"
+        android:layout_marginTop="16dp"
+        android:text="Is single-selection mode"
+        android:checked="true"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:buttonTint="@color/black"
+        android:textSize="18sp" />
+
+    <NumberPicker
+        android:id="@+id/chooseMediaCountNumberPicker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/selectionModeCheckBox"
+        app:layout_constraintStart_toStartOf="@id/selectionModeCheckBox"
+        app:layout_constraintEnd_toEndOf="@id/selectionModeCheckBox"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_rounded_16"
+        android:visibility="gone"
+        android:backgroundTint="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/pickOnlyPhotoTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/labelTextView"
+        app:layout_constraintStart_toStartOf="@id/selectionModeCheckBox"
+        app:layout_constraintEnd_toEndOf="@id/selectionModeCheckBox"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Pick only photo"
+        android:padding="16dp"
+        app:drawableTint="@color/white"
+        app:drawableEndCompat="@drawable/ic_image" />
+
+    <TextView
+        android:id="@+id/pickOnlyVideoTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pickOnlyPhotoTextView"
+        app:layout_constraintStart_toStartOf="@id/selectionModeCheckBox"
+        app:layout_constraintEnd_toEndOf="@id/selectionModeCheckBox"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Pick only video"
+        android:padding="16dp"
+        app:drawableTint="@color/white"
+        app:drawableEndCompat="@drawable/ic_video" />
+
+    <TextView
+        android:id="@+id/pickPhotoAndVideoTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pickOnlyVideoTextView"
+        app:layout_constraintStart_toStartOf="@id/selectionModeCheckBox"
+        app:layout_constraintEnd_toEndOf="@id/selectionModeCheckBox"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Pick photo and video"
+        android:padding="16dp"
+        app:drawableTint="@color/white"
+        app:drawableEndCompat="@drawable/ic_media" />
+
+        <TextView
+            android:id="@+id/viewAttachedResultsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/selectionModeCheckBox"
+            app:layout_constraintEnd_toEndOf="@id/selectionModeCheckBox"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/shape_rounded_16"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="View attached results"
+            android:padding="16dp"
+            app:drawableTint="@color/white"
+            app:drawableEndCompat="@drawable/ic_attachment" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
