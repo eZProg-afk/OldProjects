@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RunTracker</string>
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Running Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve"
+        translatable="false">AIzaSyBPOuoN4wZx-oAUGvvsoiZ_SbWvfa4H0kY</string>
+    <string name="your_runs_label">Ваши пробежки</string>
+    <string name="statistics_label">Статистика</string>
+    <string name="settings_label">Настройки</string>
+    <string name="run_tracker">Трекер пробежки</string>
+    <string name="cancel_tracking">Отменить трекинг</string>
+    <string name="sort_by_label">Сортировка по:</string>
+</resources>

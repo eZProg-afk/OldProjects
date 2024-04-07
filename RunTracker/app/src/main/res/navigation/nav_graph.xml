@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/setupFragment">
+
+    <action android:id="@+id/action_global_tracking_fragment"
+        app:destination="@id/trackingFragment"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:launchSingleTop="true" />
+
+    <fragment
+        android:id="@+id/runFragment"
+        android:name="spiral.bit.dev.runtracker.ui.fragments.RunFragment"
+        android:label="RunFragment"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:enterAnim="@anim/nav_default_enter_anim">
+        <action
+            android:id="@+id/action_runFragment_to_trackingFragment"
+            app:destination="@id/trackingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setupFragment"
+        android:name="spiral.bit.dev.runtracker.ui.fragments.SetupFragment"
+        android:label="SetupFragment"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:enterAnim="@anim/nav_default_enter_anim">
+        <action
+            android:id="@+id/action_setupFragment_to_runFragment"
+            app:destination="@id/runFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="spiral.bit.dev.runtracker.ui.fragments.StatisticsFragment"
+        android:label="StatisticsFragment" />
+    <fragment
+        android:id="@+id/trackingFragment"
+        android:name="spiral.bit.dev.runtracker.ui.fragments.TrackingFragment"
+        android:label="TrackingFragment"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:enterAnim="@anim/nav_default_enter_anim">
+        <action
+            android:id="@+id/action_trackingFragment_to_runFragment"
+            app:destination="@id/runFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="spiral.bit.dev.runtracker.ui.fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>
