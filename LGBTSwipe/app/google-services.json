@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "88818579885",
+    "project_id": "swipe-a1b50",
+    "storage_bucket": "swipe-a1b50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88818579885:android:5a730115109501fc2e8924",
+        "android_client_info": {
+          "package_name": "spiral.bit.dev.lgbtswipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88818579885-se9l0socj7b439lj21mr8ndin9l5rqte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9JFB5XEaxis1r52Nb4EPgu9_XGd3LUzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88818579885-se9l0socj7b439lj21mr8ndin9l5rqte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

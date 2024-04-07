@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackColor"
+    tools:context=".views.main.CardsFragment">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/reswipe_btn"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/back_img"
+        android:padding="@dimen/_10sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/undo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.yuyakaido.android.cardstackview.CardStackView
+        android:id="@+id/card_stack_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/cancel_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/reswipe_btn"
+        tools:listitem="@layout/card_item" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/cancel_btn"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:background="@drawable/back_img"
+        android:padding="@dimen/_10sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/card_stack_view"
+        app:layout_constraintTop_toBottomOf="@id/card_stack_view" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/like_btn"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:background="@drawable/back_img"
+        android:padding="@dimen/_10sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/like"
+        app:layout_constraintEnd_toEndOf="@id/card_stack_view"
+        app:layout_constraintTop_toBottomOf="@id/card_stack_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

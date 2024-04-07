@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/main_list_item_photo"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:layout_height="0dp"
+        android:src="@drawable/profile"
+        app:riv_corner_radius="@dimen/_16sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/main_list_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="NAMEEE"
+        android:fontFamily="@font/balsamiq_bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/main_list_gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:fontFamily="@font/balsamiq_regular"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/main_list_item_name"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

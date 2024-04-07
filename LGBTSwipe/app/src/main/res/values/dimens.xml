@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_m">16dp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+    <dimen name="app_small_m">10dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="vertical_large_m">16dp</dimen>
+    <dimen name="big_m_app">120dp</dimen>
+    <dimen name="medium_app_m">50dp</dimen>
+    <dimen name="normal_m">30dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_image_width">70dp</dimen>
+    <dimen name="toolbar_image_height">50dp</dimen>
+    <dimen name="appPadding">10dp</dimen>
+
+    <!-- Settings fragment -->
+
+    <dimen name="fr_settings_user_photo_width">55dp</dimen>
+    <dimen name="fr_settings_user_photo_height">55dp</dimen>
+    <dimen name="fr_settings_btn_change_photo_width">45dp</dimen>
+    <dimen name="fr_settings_btn_change_photo_height">45dp</dimen>
+    <dimen name="fr_settings_user_photo_border">2dp</dimen>
+    <dimen name="fr_settings_ripple_effect_radius">4dp</dimen>
+    <dimen name="fr_settings_header_height">100dp</dimen>
+    <dimen name="fr_settings_btn_theme_text_size">10sp</dimen>
+    <dimen name="fr_settings_m_top">20dp</dimen>
+    <dimen name="fr_settings_btn_width">30dp</dimen>
+    <dimen name="fr_settings_btn_height">30dp</dimen>
+    <dimen name="fr_settings_border_width">3dp</dimen>
+    <dimen name="fr_settings_m_top_layout">5dp</dimen>
+    <dimen name="fr_settings_hint_pin_code_height">20dp</dimen>
+    <dimen name="fr_settings_image_width">200dp</dimen>
+    <dimen name="fr_settings_image_height">40dp</dimen>
+    <dimen name="fr_settings_secure_switch_m_start">60dp</dimen>
+    <dimen name="fr_settings_secure_label_m_top">36dp</dimen>
+
+    <!-- Chat fragment -->
+
+    <dimen name="fr_chat_image_width">180dp</dimen>
+    <dimen name="fr_chat_image_height">180dp</dimen>
+    <dimen name="fr_chat_common_width">180dp</dimen>
+    <dimen name="fr_chat_common_height">60dp</dimen>
+    <dimen name="fr_chat_btn_width">40dp</dimen>
+    <dimen name="fr_chat_btn_height">40dp</dimen>
+    <dimen name="fr_chat_zero_dp">0dp</dimen>
+    <dimen name="fr_chat_linear_width">400dp</dimen>
+    <dimen name="fr_chat_icon_width">50dp</dimen>
+    <dimen name="fr_chat_edit_text_height">60dp</dimen>
+
+    <!-- Incoming Call fragment -->
+
+    <dimen name="fr_incoming_call_text_size">30sp</dimen>
+    <dimen name="fr_incoming_call_m_top">50dp</dimen>
+    <dimen name="fr_incoming_call_btn_answer_width">80dp</dimen>
+    <dimen name="fr_incoming_call_btn_height">80dp</dimen>
+    <dimen name="fr_incoming_call_m_bottom">24dp</dimen>
+    <dimen name="fr_incoming_call_m">40dp</dimen>
+    <dimen name="fr_incoming_call_text_duration_m_top">8dp</dimen>
+    <dimen name="fr_incoming_call_text_text_size">16sp</dimen>
+
+    <!-- Subscription fragment -->
+
+    <dimen name="fr_sub_m_top">10dp</dimen>
+    <dimen name="fr_sub_m_start">45dp</dimen>
+    <dimen name="fr_sub_voice_m_top">30dp</dimen>
+    <dimen name="fr_sub_m">5dp</dimen>
+    <dimen name="fr_sub_btn_m_top">80dp</dimen>
+
+    <!-- Account Info fragment -->
+
+    <dimen name="fr_account_info_ava_width">300dp</dimen>
+    <dimen name="fr_account_info_ava_height">150dp</dimen>
+    <dimen name="fr_account_info_m_start">160dp</dimen>
+    <dimen name="fr_account_info_m_top">35dp</dimen>
+
+    <!-- Enter Phone fragment -->
+
+    <dimen name="fr_enter_phone_m_top">20dp</dimen>
+    <dimen name="fr_enter_phone_icon_width">200dp</dimen>
+    <dimen name="fr_enter_phone_icon_height">40dp</dimen>
+    <dimen name="fr_enter_phone_m_top_big">40dp</dimen>
+
+    <!-- Upload Track fragment -->
+
+    <dimen name="fr_upload_track_m_top">10dp</dimen>
+
+    <!-- Main Chat fragment -->
+
+    <dimen name="fr_main_main_item_width">300dp</dimen>
+    <dimen name="fr_main_main_item_height">20dp</dimen>
+    <dimen name="fr_main_last_msg_height">20dp</dimen>
+    <dimen name="fr_main_icon_call_m_start">20dp</dimen>
+    <dimen name="fr_main_icon_call_m_top">15dp</dimen>
+    <dimen name="fr_main_main_item_m_start">8dp</dimen>
+    <dimen name="fr_main_main_item_m_top">4dp</dimen>
+    <dimen name="fr_main_height">70dp</dimen>
+
+    <!--Splash activity -->
+
+    <dimen name="splash_img_view_height">300dp</dimen>
+    <dimen name="splash_text_app">40sp</dimen>
+    <dimen name="splash_text_made_by_size">25sp</dimen>
+
+
+    <!-- Add Contact Item -->
+    <dimen name="add_contact_width">25dp</dimen>
+    <dimen name="add_contact_height">25dp</dimen>
+    <dimen name="add_contact_last_message_height">20dp</dimen>
+    <dimen name="add_contact_item_name_height">20dp</dimen>
+    <dimen name="item_contact_separator_height">2dp</dimen>
+
+    <!-- Voice Helper -->
+
+    <dimen name="voice_helper_m_top">100dp</dimen>
+    <dimen name="voice_helper_help_m_top">140dp</dimen>
+    <dimen name="voice_helper_what_i_can_m_top">216dp</dimen>
+    <dimen name="voice_helper_button_width">100dp</dimen>
+    <dimen name="voice_helper_button_height">100dp</dimen>
+    <dimen name="voice_helper_card_width">400dp</dimen>
+    <dimen name="voice_helper_card_height">50dp</dimen>
+    <dimen name="voice_helper_card_m_start">4dp</dimen>
+    <dimen name="voice_helper_card_m_top">8dp</dimen>
+    <dimen name="voice_helper_func_title_m_start">60dp</dimen>
+    <dimen name="voice_helper_func_title_m_top">10dp</dimen>
+    <dimen name="voice_helper_about_func_m_start">60dp</dimen>
+    <dimen name="voice_helper_about_func_m_top">10dp</dimen>
+    <dimen name="voice_helper_width">30dp</dimen>
+    <dimen name="voice_helper_height">30dp</dimen>
+    <dimen name="voice_helper_icon_m_top">10dp</dimen>
+    <dimen name="voice_helper_m_start">15dp</dimen>
+
+    <!-- WINDOWS -->
+
+    <!-- View Window -->
+
+    <dimen name="view_window_gif_width">400dp</dimen>
+    <dimen name="view_window_gif_height">450dp</dimen>
+    <dimen name="view_window_gif_time_m_top">5dp</dimen>
+    <dimen name="view_window_gif_linear_m_top">25dp</dimen>
+    <dimen name="view_window_gif_like_width">40dp</dimen>
+    <dimen name="view_window_gif_like_height">40dp</dimen>
+    <dimen name="view_window_gif_dislike_height">40dp</dimen>
+    <dimen name="view_window_gif_dislike_width">40dp</dimen>
+    <dimen name="view_window_gif_share_width">40dp</dimen>
+    <dimen name="view_window_gif_share_height">40dp</dimen>
+    <dimen name="view_window_image_width">400dp</dimen>
+    <dimen name="view_window_image_height">450dp</dimen>
+    <dimen name="view_window_image_m_top">5dp</dimen>
+    <dimen name="view_window_image_linear_m_top">25dp</dimen>
+    <dimen name="view_window_image_like_width">40dp</dimen>
+    <dimen name="view_window_image_like_height">40dp</dimen>
+    <dimen name="view_window_image_dislike_width">40dp</dimen>
+    <dimen name="view_window_image_dislike_height">40dp</dimen>
+    <dimen name="view_window_image_share_width">40dp</dimen>
+    <dimen name="view_window_image_share_height">40dp</dimen>
+
+    <!-- Full Image Window -->
+
+    <dimen name="full_image_window_m_top">10dp</dimen>
+    <dimen name="full_image_window_width">40dp</dimen>
+    <dimen name="full_image_window_height">40dp</dimen>
+    <dimen name="full_image_width">320dp</dimen>
+    <dimen name="full_image_height">340dp</dimen>
+
+    <!-- Register Window -->
+
+    <dimen name="register_window_m">20dp</dimen>
+
+    <!-- ITEMS -->
+
+    <!-- Make Call Item -->
+
+    <dimen name="make_call_item_name_height">20dp</dimen>
+    <dimen name="make_call_item_name_width">8dp</dimen>
+    <dimen name="make_call_item_m_top">4dp</dimen>
+    <dimen name="make_call_last_msg_height">20dp</dimen>
+    <dimen name="make_call_last_msg_m_start">8dp</dimen>
+    <dimen name="make_call_last_msg_m_top">3dp</dimen>
+    <dimen name="make_call_height">70dp</dimen>
+    <dimen name="make_call_main_width">300dp</dimen>
+    <dimen name="make_call_main_height">60dp</dimen>
+
+    <!-- Playlist -->
+
+    <dimen name="playlist_width">370dp</dimen>
+    <dimen name="playlist_height">120dp</dimen>
+    <dimen name="playlist_m_start">20dp</dimen>
+    <dimen name="playlist_m_top">10dp</dimen>
+    <dimen name="playlist_name_m_start">5dp</dimen>
+    <dimen name="playlist_name_m_top">7dp</dimen>
+    <dimen name="playlist_music_ava_width">80dp</dimen>
+    <dimen name="playlist_music_ava_height">80dp</dimen>
+    <dimen name="playlist_music_ava_m_start">7dp</dimen>
+    <dimen name="playlist_music_ava_m_top">30dp</dimen>
+    <dimen name="playlist_tracks_label_m_start">100dp</dimen>
+    <dimen name="playlist_tracks_label_m_top">7dp</dimen>
+    <dimen name="playlist_recycler_m_top">30dp</dimen>
+    <dimen name="playlist_recycler_m_bottom">17dp</dimen>
+    <dimen name="playlist_recycler_m_start">100dp</dimen>
+    <dimen name="playlist_btn_open_width">20dp</dimen>
+    <dimen name="playlist_btn_open_height">20dp</dimen>
+    <dimen name="playlist_btn_open_m_top">7dp</dimen>
+    <dimen name="playlist_btn_open_m_start">250dp</dimen>
+
+    <!-- My Track Item -->
+
+    <dimen name="my_track_item_ava_width">40dp</dimen>
+    <dimen name="my_track_item_ava_height">40dp</dimen>
+    <dimen name="my_track_item_m_top">5dp</dimen>
+    <dimen name="my_track_item_play_btn_m_top">12dp</dimen>
+
+    <!-- Mini Track Item -->
+
+    <dimen name="mini_track_item_play_track_m_start">5dp</dimen>
+    <dimen name="mini_track_item_m_top">4dp</dimen>
+
+
+    <!-- Item Text -->
+
+    <dimen name="item_text_m_bottom">10dp</dimen>
+    <dimen name="item_text_ic_favourite_m_start">20dp</dimen>
+    <dimen name="item_text_m_top">16dp</dimen>
+    <dimen name="item_text_m_end">24dp</dimen>
+    <dimen name="item_text_reply_msg_m_start">60dp</dimen>
+    <dimen name="item_text_const_reply_full_msg_width">400dp</dimen>
+    <dimen name="item_text_const_reply_full_msg_height">50dp</dimen>
+
+    <!-- Image Item -->
+
+    <dimen name="image_item_width">50dp</dimen>
+    <dimen name="image_image_height">50dp</dimen>
+
+    <!-- Video Item -->
+
+    <dimen name="video_width">250dp</dimen>
+    <dimen name="video_height">400dp</dimen>
+
+    <!-- Card View -->
+
+    <dimen name="card_view_corner_radius">8dp</dimen>
+    <dimen name="card_view_elevation">10dp</dimen>
+
+    <!-- Bottom Sheet Menu -->
+
+    <dimen name="bottom_sheet_height">100dp</dimen>
+    <dimen name="btn_bottom_sheet_width">50dp</dimen>
+
+    <!-- Other dimens -->
+
+    <dimen name="bubble_size">10dp</dimen>
+    <dimen name="black_list_height">70dp</dimen>
+    <dimen name="main_item_height">60dp</dimen>
+</resources>
