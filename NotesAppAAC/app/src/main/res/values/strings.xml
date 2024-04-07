@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">WorkNote</string>
+    <string name="priority">Приоритетность:</string>
+    <string name="description">Описание</string>
+    <string name="title">Заголовок</string>
+    <string name="quantity">Количество:</string>
+    <string name="price">Цена:</string>
+
+    <string name="time">Время:</string>
+    <string name="settings">Настройки</string>
+    <string name="save">Сохранить</string>
+    <string name="delete_all_notes">Все задачи удалены!</string>
+    <string name="deleted_all_notes">Все задачи удалены!</string>
+    <string name="deleted_all_to_do">Все TODO удалены!</string>
+    <string name="deleted_all_shop">Все покупки удалены!</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="complete">Ваша задача уже выполнена?</string>
+    <string name="complete_to_do">Ваше TODO уже выполнено?</string>
+    <string name="complete_purchase">Ваша покупка уже выполнена?</string>
+
+    <string name="add_note">Добавление задачи</string>
+    <string name="add_to_do">Добавление TODO</string>
+    <string name="add_purchase">Добавление покупку</string>
+
+    <string name="empty_edit_text_toast">Пж-ста, введите заголовок и описание</string>
+    <string name="empty_to_do_edit_text">Пж-ста,введите TODO</string>
+    <string name="empty_purchase_edit_text">Пж-ста, введите наименование продукта, количество и цену</string>
+
+    <string name="not_update_note">Задача не можеть быть отредактирована!</string>
+    <string name="not_update_to_do">TODO не можеть быть отредактирована!</string>
+    <string name="not_update_shop">Покупка не можеть быть отредактирована!</string>
+
+    <string name="update_note">Задача отредактирована!</string>
+    <string name="update_to_do">TODO отредактировано!</string>
+    <string name="update_shop">Покупка отредактирована!</string>
+
+    <string name="not_saved_note">Задача не была сохранена!</string>
+    <string name="not_saved_shop">Покупка не была сохранена!</string>
+    <string name="not_saved_to_do">TODO не может быть сохранено!</string>
+
+    <string name="saved_note">Задача сохранена!</string>
+    <string name="saved_to_do">TODO сохранено!</string>
+
+    <string name="saved_purchase">Покупка сохранена!</string>
+    <string name="deleted_note">Задача выполнена!</string>
+    <string name="deleted_to_do">TODO выполнено!</string>
+    <string name="deleted_shop">Покупка выполнена!</string>
+
+    <string name="setting_title">Включить звук в приложении</string>
+    <string name="sound_on">Звук включен</string>
+    <string name="sound_off">Звук выключен</string>
+
+    <string name="edit_task">Редактирование план</string>
+    <string name="edit_note">Редактирование задачи</string>
+    <string name="edit_to_do">Редактирование TODO</string>
+    <string name="edit_profile">Редактирование профиля</string>
+    <string name="edit_purchase">Редактирование покупки</string>
+
+    <string name="hint_text">Сейчас тут нет заметок.\n Чтобы добавить одну, нажмите на кнопку ниже.</string>
+    <string name="enter_todo">Введите TODO:</string>
+    <string name="enter_purchase">Введите продукт:</string>
+    <string name="select_quantity">Количество:</string>
+    <string name="select_price">Цена:</string>
+    <string name="select_priority">Приоритетность:</string>
+
+    <string name="completed_tasks">Выполненные задачи:</string>
+    <string name="completed_todo">Выполненные TODO:</string>
+    <string name="completed_purchases">Выполненные покупки</string>
+    <string name="spent_money">Потрачено денег:</string>
+    <string name="splash_screen_disable">Splash screen выключен</string>
+    <string name="splash_screen_enable">Splash screen включен</string>
+    <string name="do_not_keep">Не вести</string>
+    <string name="keep">Вести</string>
+    <string name="completing_of_purchase">Выполнение Покупки</string>
+    <string name="completing_of_to_do">Выполнение TODO</string>
+    <string name="warning_text">Сейчас у вас выключено отслеживание статистики в настройках.\nЧтобы видеть её, вам нужно включить эту функцию.</string>
+    <string name="statistic_complete_tasks">Статистика выполнения заданий</string>
+    <string name="reflection_splash_screen">Отображение привественного экрана</string>
+    <string name="melody_after_completing_task">Мелодия при выполнении задания</string>
+    <string name="username">Введите ваш никнейм…</string>
+
+    <string name="Готово">OK</string>
+
+    <string name="important">Важно</string>
+    <string name="medium">Средне</string>
+    <string name="not_so_important">Не так важно</string>
+
+    <string-array name="importance">
+        <item>Выберите важность</item>
+        <item>Высокая</item>
+        <item>Средняя</item>
+        <item>Низкая</item>
+    </string-array>
+
+    <string name="todo">TODO</string>
+    <string name="add_task_menu">Добавить</string>
+    <string name="profile">Профиль</string>
+    <string name="calendar">Календарь</string>
+    <string name="select_a_priority">Выберите важность</string>
+    <string name="importance_toast">Важность: </string>
+
+    <string name="mark_task_on_calendar">Отметьте задачу на календаре:</string>
+    <string name="view_note">Просмотр задачи</string>
+    <string name="shoplist">Список Покупок</string>
+    <string name="name_of_shop">Наименование продукта:</string>
+    <string name="completing_of_shop">Выполнение покупки</string>
+    <string name="saved_shop">Покупка сохранена!</string>
+    <string name="bought">Куплено</string>
+    <string name="frag_item_1">Completed tasks</string>
+    <string name="frag_item_2">Completed purchases</string>
+    <string name="frag_item_3">Completed TODO\'s</string>
+    <string name="are_you_sure_delete_all_tasks">Вы точно хотите удалить все задачи?</string>
+    <string name="deleting_all_tasks">Удаление всех задач</string>
+    <string name="completing_of_task">Выполнение задания</string>
+    <string name="wdywtd">Что вы хотите сделать?</string>
+    <string name="view_a_note">Просмотреть заметку</string>
+    <string name="edit">Редактировать</string>
+    <string name="Cancel">Отмена</string>
+    <string name="note">Заметка</string>
+    <string name="aystdat">Вы точно хотите удалить все задачи?</string>
+    <string name="deleting_of_all_tasks">Удаление всех задач</string>
+    <string name="size_of_text">Размер текста</string>
+    <string name="def_profile_username">USERNAME</string>
+    <string name="hide_menu">Спрятать меню</string>
+    <string name="remind">Напоминание</string>
+    <string name="lets_GO">Пора приступать к задаче!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

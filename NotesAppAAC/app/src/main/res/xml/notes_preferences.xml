@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enable_sound"
+        android:summaryOff="@string/sound_off"
+        android:summaryOn="@string/sound_on"
+        android:title="@string/setting_title" />
+
+    <ListPreference
+    android:title="@string/melody_after_completing_task"
+    android:key="timer_melody"
+    android:defaultValue="short_sound"
+    android:entries="@array/prefTimerMelodies"
+    android:entryValues="@array/prefTimerMelodyValues" />
+
+    <CheckBoxPreference
+        android:title="@string/reflection_splash_screen"
+        android:key="splash_screen"
+        android:defaultValue="true"
+        android:summaryOff="@string/splash_screen_disable"
+        android:summaryOn="@string/splash_screen_enable" />
+
+    <CheckBoxPreference
+        android:title="@string/statistic_complete_tasks"
+        android:key="statistic"
+        android:defaultValue="true"
+        android:summaryOff="@string/do_not_keep"
+        android:summaryOn="@string/keep" />
+
+</PreferenceScreen>

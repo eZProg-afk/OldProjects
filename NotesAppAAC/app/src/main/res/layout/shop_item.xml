@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/shop_item_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="Purchase"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="122dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/shop_item_TV"
+            android:layout_toRightOf="@+id/shop_item_TV"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:text="Не куплено"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

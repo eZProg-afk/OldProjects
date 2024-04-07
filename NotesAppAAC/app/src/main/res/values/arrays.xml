@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="prefTimerMelodies">
+        <item>Short sound 1</item>
+        <item>Sound 2</item>
+        <item>Note delete sound</item>
+        <item>Space sound note delete</item>
+    </array>
+
+    <array name="prefTimerMelodyValues">
+        <item>note_complete</item>
+        <item>sound_2</item>
+        <item>sound_3</item>
+        <item>sound_4</item>
+    </array>
+</resources>
