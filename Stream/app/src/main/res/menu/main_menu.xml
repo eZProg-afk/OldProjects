@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/settings_item"
+        android:title="@string/settings_label"
+        android:icon="@drawable/setting"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/home_item"
+        android:title="" />
+    <item
+        android:id="@+id/contacts_item"
+        android:title="@string/contacts_label"
+        android:icon="@drawable/phone"
+        app:showAsAction="ifRoom" />
+</menu>

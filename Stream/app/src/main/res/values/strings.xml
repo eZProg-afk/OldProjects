@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">STREAM</string>
+    <string name="reg_label">Зарегистрироваться</string>
+    <string name="auth_label">Войти</string>
+    <string name="enter_email_hint">Введите ваш E-mail…</string>
+    <string name="enter_password_hint">Введите ваш пароль…</string>
+    <string name="app_label">STREAM</string>
+    <string name="full_name_hint">Введите полное имя…</string>
+    <string name="enter_label">Вход</string>
+    <string name="error_toast">Произошла ошибка :( \n Проверьте подключение \n к интернету.</string>
+    <string name="home_label">Домашняя</string>
+    <string name="exit_label">Выход</string>
+    <string name="settings_label">Настройки</string>
+    <string name="history_label">История</string>
+    <string name="enter_code_hint">Введите код...</string>
+    <string name="code_label">Для входа в конференцию введите полученный код и нажмите войти, чтобы начать звонок</string>
+    <string name="join_label">Войти</string>
+    <string name="share_label">Поделиться</string>
+    <string name="create_conference_hint">Для создания конференции придумайте сложный код, введите его в поле ниже, поделитесь им с друзьями, и нажмите войти.</string>
+    <string name="conference_label">КОНФЕРЕНЦИЯ</string>
+    <string name="micro_off_text">микрофон</string>
+    <string name="camera_off_text">камера</string>
+    <string name="conf_settings_label">Настройки конференции</string>
+    <string name="next_label">Далее</string>
+    <string name="contacts_label">Контакты</string>
+    <string name="def_name">Коля Портнов</string>
+    <string name="def_phone_number">+7 (925) 351–61–36</string>
+</resources>
