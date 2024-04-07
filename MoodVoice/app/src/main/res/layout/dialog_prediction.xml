@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_dialog_prediction_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="@drawable/background_dialog"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/prediction_tv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="@string/prediction_text"
+        android:textColor="@color/my_black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/then_tv"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+        android:text="@string/then_text"
+        android:textColor="@color/my_black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/prediction_tv"
+        app:layout_constraintStart_toStartOf="@id/prediction_tv"
+        app:layout_constraintTop_toBottomOf="@id/prediction_tv" />
+
+    <Button
+        android:id="@+id/btn_less_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/montserrat_bold"
+        android:padding="13dp"
+        android:stateListAnimator="@null"
+        android:text="@string/less_go_label"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/then_tv"
+        app:layout_constraintStart_toStartOf="@id/then_tv"
+        app:layout_constraintTop_toBottomOf="@id/then_tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
