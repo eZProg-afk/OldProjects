@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/set_up_navigation"
+    app:startDestination="@id/setUpStubFragment">
+
+    <fragment
+        android:id="@+id/setUpStubFragment"
+        android:name="hardcoder.dev.set_up_flow.presentation.setUpStub.SetUpStubFragment"
+        android:label="fragment_set_up_stub"
+        tools:layout="@layout/fragment_set_up_stub">
+        <deepLink app:uri="android-app://hardcoder.dev.trustme/fragment_set_up_flow" />
+        <action
+            android:id="@+id/toSetUpAppearanceFragment"
+            app:destination="@id/setUpAppearanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setUpAppearanceFragment"
+        android:name="hardcoder.dev.set_up_flow.presentation.setUpAppearance.SetUpAppearanceFragment"
+        android:label="fragment_set_up_appearance"
+        tools:layout="@layout/fragment_set_up_appearance" />
+</navigation>

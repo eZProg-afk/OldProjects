@@ -1,0 +1,24 @@
+<resources>
+    <!-- App module -->
+    <string name="app_name">TrustMe</string>
+
+    <!-- Onboarding module -->
+    <string name="icon_next_cd">К следующему экрану</string>
+    <string name="get_started_label">Начать</string>
+    <string name="skip_label">Пропустить</string>
+    <string name="onboarding_picture_cd">Картинка онбординга</string>
+    <string name="safety_title">Безопасность &amp; Защита</string>
+    <string name="safety_description">Храните все свои самые важные файлы в этом приложении - будьте уверены, что к ним не доберется злоумышленник. Все файлы хранятся ТОЛЬКО на вашем телефоне, на сервера я их не отправляю.</string>
+    <string name="flexibility_title">Гибкость &amp; Вариативность</string>
+    <string name="flexibility_description">Выбирайте из нескольких вариантов заглушек, измените название и иконку приложения. Вы можете максимально гибко и широко настроить приложение.</string>
+    <string name="get_started_title">Как начать?</string>
+    <string name="get_started_description">Начните с того, чтобы настроить приложение. Выберите подходящие вам настройки (позже их всегда можно будет сменить)</string>
+
+    <!-- Set up flow module -->
+    <string name="apply_stub_label">Применить заглушку</string>
+    <string name="select_stub">Выбор заглушки</string>
+    <string name="stub_preview_label">Предпросмотр заглушки:</string>
+    <string name="dashboard_option">Управление</string>
+    <string name="storage_option">Сейф</string>
+    <string name="settings_option">Настройки</string>
+</resources>

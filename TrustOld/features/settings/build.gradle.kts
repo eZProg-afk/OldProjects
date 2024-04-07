@@ -1,0 +1,48 @@
+plugins {
+    id(Plugins.Android.library)
+    kotlin(Plugins.Kotlin.android)
+    kotlin(Plugins.Kotlin.kapt)
+}
+
+android {
+    compileSdk = Android.compileSdk
+
+    defaultConfig {
+        minSdk = Android.DefaultConfig.minSdk
+        targetSdk = Android.DefaultConfig.targetSdk
+
+        testInstrumentationRunner = Android.DefaultConfig.instrumentationRunner
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = Android.KotlinOptions.jvmTargetVersion
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+    addCommonModules()
+    addCommonAndroid()
+    addNavigation()
+    addUI()
+    addDI()
+    addTests()
+}

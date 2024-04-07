@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AppSettings {
+    bool is_first_launch = 1;
+    string stub_password = 2;
+}
+

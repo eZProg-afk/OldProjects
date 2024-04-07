@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apply_appearance_label">Применить внешний вид</string>
+    <string name="select_appearance">Выбор внешнего вида</string>
+    <string name="select_icon">Выберите иконку</string>
+    <string name="enter_app_name">Придумайте название</string>
+    <string name="enter_app_name_hint">Введите название приложения…</string>
+</resources>

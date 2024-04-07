@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.setUpAppearance.SetUpAppearanceFragment"
+    tools:theme="@style/Theme.TrustMe">
+
+    <TextView
+        android:id="@+id/selectAppearanceLabelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/select_appearance"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/selectIconLabelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/select_icon"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:layout_constraintEnd_toEndOf="@id/selectAppearanceLabelTextView"
+        app:layout_constraintStart_toStartOf="@id/selectAppearanceLabelTextView"
+        app:layout_constraintTop_toBottomOf="@id/selectAppearanceLabelTextView" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/iconRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:fadeScrollbars="true"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="@dimen/small_padding"
+        android:orientation="horizontal"
+        android:paddingVertical="@dimen/small_padding"
+        android:requiresFadingEdge="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="@id/selectIconLabelTextView"
+        app:layout_constraintStart_toStartOf="@id/selectIconLabelTextView"
+        app:layout_constraintTop_toBottomOf="@id/selectIconLabelTextView"
+        tools:listitem="@layout/item_stub" />
+
+    <TextView
+        android:id="@+id/enterAppNameLabelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/enter_app_name"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:layout_constraintEnd_toEndOf="@id/selectAppearanceLabelTextView"
+        app:layout_constraintStart_toStartOf="@id/selectAppearanceLabelTextView"
+        app:layout_constraintTop_toBottomOf="@id/iconRecyclerView" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/enterAppNameTextInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/enterAppNameLabelTextView"
+        app:layout_constraintStart_toStartOf="@id/enterAppNameLabelTextView"
+        app:layout_constraintEnd_toEndOf="@id/enterAppNameLabelTextView"
+        android:layout_marginTop="@dimen/small_margin"
+        android:hint="@string/enter_app_name_hint">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/enterAppNameTextInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:fadeScrollbars="true"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="@dimen/small_padding"
+        android:orientation="horizontal"
+        android:paddingVertical="@dimen/medium_padding"
+        android:requiresFadingEdge="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="@id/selectIconLabelTextView"
+        app:layout_constraintStart_toStartOf="@id/selectIconLabelTextView"
+        app:layout_constraintTop_toBottomOf="@id/selectIconLabelTextView"
+        tools:listitem="@layout/item_stub" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/applyStubButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:fontFamily="@font/ubuntu_bold"
+        android:padding="@dimen/small_margin"
+        android:text="@string/apply_appearance_label"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+        app:cornerRadius="@dimen/corner_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

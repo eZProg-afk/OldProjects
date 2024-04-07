@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/onboarding_navigation">
+
+    <include app:graph="@navigation/onboarding_navigation" />
+    <include app:graph="@navigation/set_up_navigation" />
+
+    <include app:graph="@navigation/dashboard_navigation" />
+    <include app:graph="@navigation/storage_navigation" />
+    <include app:graph="@navigation/settings_navigation" />
+
+
+</navigation>

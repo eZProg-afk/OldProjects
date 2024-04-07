@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:theme="@style/Theme.TrustMe"
+    tools:context=".presentation.setUpStub.SetUpStubFragment">
+
+    <TextView
+        android:id="@+id/selectStubLabelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/select_stub"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stubPreviewLabelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/stub_preview_label"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:layout_constraintEnd_toEndOf="@id/selectStubLabelTextView"
+        app:layout_constraintStart_toStartOf="@id/selectStubLabelTextView"
+        app:layout_constraintTop_toBottomOf="@id/selectStubLabelTextView" />
+
+
+    <VideoView
+        android:id="@+id/stubPreviewVideoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
+        app:layout_constraintBottom_toTopOf="@id/stubRecyclerView"
+        app:layout_constraintEnd_toEndOf="@id/stubPreviewLabelTextView"
+        app:layout_constraintStart_toStartOf="@id/stubPreviewLabelTextView"
+        app:layout_constraintTop_toBottomOf="@id/stubPreviewLabelTextView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/stubRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="16dp"
+        android:orientation="horizontal"
+        android:paddingVertical="@dimen/small_padding"
+        android:requiresFadingEdge="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@id/applyStubButton"
+        app:layout_constraintEnd_toEndOf="@id/applyStubButton"
+        app:layout_constraintStart_toStartOf="@id/applyStubButton"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_stub" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/applyStubButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:fontFamily="@font/ubuntu_bold"
+        android:padding="@dimen/small_margin"
+        android:text="@string/apply_stub_label"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+        app:cornerRadius="@dimen/corner_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
