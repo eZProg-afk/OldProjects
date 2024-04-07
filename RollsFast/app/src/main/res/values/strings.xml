@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RollsFast</string>
+    <string name="def_phone_number">+7 (925) 123–45-67</string>
+    <string name="yandex_api_key" tools:ignore="TypographyDashes">dd664c05-f1fe-4115-8a9b-fe6e38d72f7c</string>
+    <string name="google_safety_net_key">AIzaSyBO3rUCzVhPPVf8N1IGz7h7eDMxV8wRWNM</string>
+    <string name="address_label">Адрес доставки</string>
+    <string name="def_address_label">Ул. Тайнинская, д.149</string>
+    <string name="to_order_btn_label">Перейти к заказу</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="def_price">440$</string>
+    <string name="def_name">Roll Name</string>
+    <string name="adm_label">Админка</string>
+    <string name="add_product_label">Добавление продукта</string>
+    <string name="enter_product_name_hint">Введите имя продукта...</string>
+    <string name="enter_product_desc_hint">Введите описание продукта...</string>
+    <string name="enter_product_price_hint">Введите стоимость продукта...</string>
+    <string name="add_product_btn_label">Добавить продукт</string>
+    <string name="to_user_btn_label">К пользователю</string>
+</resources>

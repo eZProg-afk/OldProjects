@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>rolls</item>
+        <item>sushi</item>
+        <item>sashimi</item>
+        <item>sets</item>
+        <item>vegetable</item>
+        <item>drinks</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "355922062978",
+    "project_id": "rollsfast-33ffd",
+    "storage_bucket": "rollsfast-33ffd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355922062978:android:8a7c296f9d481a681d8e9b",
+        "android_client_info": {
+          "package_name": "spiral.bit.dev.rollsfast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355922062978-gbsq7piv3i25m80lf2e8gupqbnvpjee9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "spiral.bit.dev.rollsfast",
+            "certificate_hash": "d8c5d93b41d3d310cb23d132bfe96d3dd9bf14f2"
+          }
+        },
+        {
+          "client_id": "355922062978-gs5i4te79f8ernh2jpmrrmjsmk0lncju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY02J48J2SOdlwoLs2zqQRlWLMf1pTlK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355922062978-gs5i4te79f8ernh2jpmrrmjsmk0lncju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
