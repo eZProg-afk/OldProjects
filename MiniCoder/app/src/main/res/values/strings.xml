@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MiniCoder</string>
+    <string name="cancel_label">Отменить</string>
+    <string name="enter_ref_hint">Введите название...</string>
+    <string name="add_ref_label">Создание нового файла</string>
+    <string name="add_label">Добавить</string>
+</resources>
