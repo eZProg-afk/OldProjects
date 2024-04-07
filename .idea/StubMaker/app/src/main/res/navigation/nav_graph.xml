@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/calculatorStubFragment">
+
+    <fragment
+        android:id="@+id/calculatorStubFragment"
+        android:name="hardcoder.dev.stubmaker.calculator.CalculatorStubFragment"
+        android:label="fragment_calculator_stub"
+        tools:layout="@layout/fragment_calculator_stub" />
+    <fragment
+        android:id="@+id/cropperFragment"
+        android:name="hardcoder.dev.stubmaker.cropper.CropperFragment"
+        android:label="fragment_cropper"
+        tools:layout="@layout/fragment_cropper" />
+    <fragment
+        android:id="@+id/photoEditorFragment"
+        android:name="hardcoder.dev.stubmaker.photoEditor.PhotoEditorFragment"
+        android:label="fragment_photo_editor"
+        tools:layout="@layout/fragment_photo_editor" />
+    <fragment
+        android:id="@+id/stopWatchFragment"
+        android:name="hardcoder.dev.stubmaker.stopwatch.StopWatchFragment"
+        android:label="fragment_stop_watch"
+        tools:layout="@layout/fragment_stop_watch" />
+</navigation>

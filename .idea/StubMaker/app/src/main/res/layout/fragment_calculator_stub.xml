@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".calculator.CalculatorStubFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontalStartCalculatorGuideline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="#D9BCBC"
+        android:fontFamily="@font/ubuntu_bold"
+        android:padding="16dp"
+        android:text="Здесь будет ваш результат..."
+        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/oneTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/twoTextView"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/horizontalStartCalculatorGuideline" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/twoTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="2"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/threeTextView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/oneTextView"
+        app:layout_constraintTop_toBottomOf="@id/horizontalStartCalculatorGuideline" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/threeTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="3"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/twoTextView"
+        app:layout_constraintStart_toStartOf="@id/resultTextView"
+        app:layout_constraintTop_toBottomOf="@id/horizontalStartCalculatorGuideline" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fourTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="4"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/fiveTextView"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/oneTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fiveTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="5"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/sixTextView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/fourTextView"
+        app:layout_constraintTop_toTopOf="@id/fourTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sixTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="6"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/fiveTextView"
+        app:layout_constraintStart_toStartOf="@id/resultTextView"
+        app:layout_constraintTop_toTopOf="@id/fourTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sevenTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="7"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/eightTextView"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fourTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/eightTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="8"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/nineTextView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/sevenTextView"
+        app:layout_constraintTop_toTopOf="@id/sevenTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nineTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="9"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/eightTextView"
+        app:layout_constraintStart_toStartOf="@id/resultTextView"
+        app:layout_constraintTop_toTopOf="@id/sevenTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/equalsTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="="
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/zeroTextView"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sevenTextView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/zeroTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/removeTextView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/equalsTextView"
+        app:layout_constraintTop_toTopOf="@id/equalsTextView" />
+
+    <ImageButton
+        android:id="@+id/removeTextView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="?attr/colorPrimary"
+        android:gravity="center"
+        android:src="@drawable/ic_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/zeroTextView"
+        app:layout_constraintStart_toStartOf="@id/resultTextView"
+        app:layout_constraintTop_toTopOf="@id/equalsTextView"
+        app:tint="?attr/colorOnPrimary" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontalEndCalculatorGuideline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <HorizontalScrollView
+        android:id="@+id/operationsScrollView"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="?attr/colorSecondaryContainer"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+        app:layout_constraintEnd_toEndOf="@id/resultTextView"
+        app:layout_constraintStart_toStartOf="@id/resultTextView"
+        app:layout_constraintTop_toBottomOf="@id/horizontalEndCalculatorGuideline">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/plusButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:text="+"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                app:cornerRadius="16dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/minusButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:text="-"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                app:cornerRadius="16dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/divideButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:text="/"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                app:cornerRadius="16dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/multiplyButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:text="*"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                app:cornerRadius="16dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/divideByModuleButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:text="%"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                app:cornerRadius="16dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/clearButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:text="C"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                app:cornerRadius="16dp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
