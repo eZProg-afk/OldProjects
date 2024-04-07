@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   <string name="app_name">WallsForTeens</string>
+    <string name="skateboarding_title">Skateboarding</string>
+    <string name="japan_title">Japan</string>
+    <string name="walls_for_girls_title">Walls for girls</string>
+    <string name="famous_title">Celebrities</string>
+    <string name="arts_walls_title">Arts</string>
+    <string name="view_wall">View current walls</string>
+    <string name="walls_updated">Wallpapers updated!</string>
+    <string name="current_walls_hint">Current Walls</string>
+    <string name="error_happens_file_not_found">Image not found. \n Try to re-launch app.</string>
+
+</resources>
