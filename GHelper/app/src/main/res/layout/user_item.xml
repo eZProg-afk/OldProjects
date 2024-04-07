@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="18dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/back_constr"
+        android:layout_width="match_parent"
+        android:background="#333333"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/item_user_nick_name"
+            app:layout_constraintStart_toEndOf="@id/item_user_avatar"
+            android:layout_width="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/comforta_bold"
+            app:layout_constraintTop_toTopOf="@id/item_user_avatar"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/item_user_nick_name"
+            app:layout_constraintStart_toStartOf="@id/item_user_nick_name"
+            app:layout_constraintEnd_toEndOf="@id/item_user_nick_name"
+            android:id="@+id/item_user_role"
+            android:layout_width="0dp"
+            android:fontFamily="@font/comforta_medium"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/item_user_avatar"
+            android:src="@drawable/profile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="60dp"
+            android:layout_margin="20dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/item_user_avatar"
+            app:layout_constraintStart_toStartOf="@id/item_user_avatar"
+            app:layout_constraintEnd_toEndOf="@id/item_user_nick_name"
+            android:id="@+id/item_user_note"
+            android:layout_width="0dp"
+            android:fontFamily="@font/comforta_medium"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

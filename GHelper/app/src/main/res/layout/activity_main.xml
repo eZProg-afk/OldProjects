@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomBar" />
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/bottomBar"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="60dp"
+        app:menu="@menu/main_menu"
+        app:cornerRadius="16dp"
+        app:backgroundColor="#333333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:itemFontFamily="@font/comforta_bold"
+        app:textSize="12sp"
+        app:duration="400" />
+    <!--        app:indicatorColor=""-->
+    <!--        app:indicatorRadius=""-->
+    <!--        app:sideMargins=""-->
+    <!--        app:itemPadding=""-->
+    <!--        app:textColor=""-->
+    <!--        app:iconSize=""-->
+    <!--        app:iconTint=""-->
+    <!--        app:iconTintActive=""-->
+    <!--        app:activeItem=""-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

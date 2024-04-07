@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">GHelper</string>
+    <string name="email_hint">Введите свой E-mail…</string>
+    <string name="password_hint">Придумайте пароль…</string>
+    <string name="repeat_password_hint">Повторите пароль…</string>
+    <string name="nickname_hint">Ваш никнейм…</string>
+    <string name="hello_label">Привет!) \n Давай начнём с регистрации?</string>
+    <string name="already_reg_label">Уже есть аккаунт? \n Нажмите сюда!</string>
+    <string name="reg_label">Регистрация</string>
+    <string name="enter_password_hint">Введите пароль…</string>
+    <string name="search_menu_item">Поиск</string>
+    <string name="groups_menu_item">Гильдии</string>
+    <string name="profile_menu_item">Профиль</string>
+    <string name="second_info">Вы можете сменить никнейм, и нажать \"Применить изменения\"</string>
+    <string name="one_sovet">Нажмите на аватар,\n чтобы сменить его</string>
+    <string name="groups_label">Ваши гильдии</string>
+    <string name="search_hint_search_et">Поиск гильдий по ID…</string>
+    <string name="empty_group_label">Сейчас здесь нет гильдий. \n Добавьте свою, нажав на кнопку внизу или присоединитесь по идентификатору в поиске!</string>
+    <string name="apply_changes_label">Применить изменения</string>
+    <string name="def_email">\@spiralbitdev@gmail.com</string>
+    <string name="your_mail_label">Ваша почта:</string>
+    <string name="yo_id_label">Ваш идентификатор</string>
+    <string name="def_id">30343222WIWUI292</string>
+    <string name="yo_nickname_label">Ваш никнейм:</string>
+    <string name="def_nick_name">User Nick Name</string>
+    <string name="enter_group_name_hint">Название группы…</string>
+    <string name="enter_group_desc_hint">Описание группы…</string>
+    <string name="hint_label">Вы являетесь админом этой гильдии, другеи пользователи могут найти эту гильдию по её уникальному идентификатору</string>
+    <string name="hint_label_2"> Вы можете менять роли других участников, а также отправлять им пуш уведомления. Также вы можете добавить заметку к абсолютно любому участнику!</string>
+    <string name="hint_label_3">Чтобы создать эту группу, нажмите кнопку вверху справа, заполнив переде этим её описание и заголовок</string>
+    <string name="enter_msg_hint">Введите сообщение…</string>
+    <string name="not_found_label">Ничего не найдено :( \n Перепроверьте идентификатор группы!</string>
+    <string name="add_avatar_label">Добавление аватарки</string>
+    <string name="how_we_do">Как вы хотите\n установить аватарку?</string>
+    <string name="add_from_yet">Выбрать из списка</string>
+    <string name="add_from_gallery_label">Выбрать из галереи</string>
+    <string name="close_label">Закрыть</string>
+    <string name="def_note">Типичная заметка о юзере</string>
+    <string name="user_role_label">Роль пользователя</string>
+    <string name="user_type_label">Тип пользователя</string>
+    <string name="log_out_label">Выйти из аккаунта</string>
+    <string name="send_push_label">Отправить пуш</string>
+    <string name="push_title_hint">Введите заголовок…</string>
+    <string name="push_desc_hint">Введите описание…</string>
+    <string name="send_label">Отправить</string>
+    <string-array name="roles">
+        <item>Танк</item>
+        <item>ДД</item>
+        <item>Лекарь</item>
+    </string-array>
+    <string-array name="types_of_users">
+        <item>gm</item>
+        <item>officer</item>
+        <item>user</item>
+    </string-array>
+    <string name="ava_label">Выбор Аватарки</string>
+    <string name="leave_group_label">Покинуть гильдию</string>
+</resources>
